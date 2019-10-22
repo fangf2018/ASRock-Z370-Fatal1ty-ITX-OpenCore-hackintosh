@@ -12,7 +12,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-PLUG-_PR.PR00.aml</string>
+				<string>SSDT-PLUG.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -323,7 +323,7 @@
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
-			<true/>
+			<false/>
 			<key>Timeout</key>
 			<integer>10</integer>
 			<key>UsePicker</key>
@@ -367,19 +367,19 @@
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>C02952404J9KGQGFB</string>
+			<string>C02952404J9KGQGF1</string>
 			<key>ROM</key>
 			<data>
-			gtIVetns
+			gtIVetnh
 			</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>iMac19,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02ZW0VXJWDW</string>
+			<string>C02ZW0VXJWD1</string>
 			<key>SystemUUID</key>
-			<string>CBCB79B1-DA5F-43EE-B637-6E20707AD9EC</string>
+			<string>CBCB79B1-DA5F-43EE-B637-6E20707AD9E1</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
