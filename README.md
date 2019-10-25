@@ -1,4 +1,4 @@
-# ASRock-Z390-Phantom-ITX-OpenCore-Hackintosh
+# ASRock-Z370-Fatal1ty-ITX-OpenCore-Hackintosh
 
 ## 配置
 
