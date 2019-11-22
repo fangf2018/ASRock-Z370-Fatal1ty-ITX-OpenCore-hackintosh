@@ -84,32 +84,77 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>No-hda-gfx</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>layout-id</key>
+				<data>
+				CwAAAA==
+				</data>
+				<key>model</key>
+				<string>200 Series PCH HD Audio</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>
 				BwCbPg==
 				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
 				<key>device-id</key>
 				<data>
 				mz4AAA==
 				</data>
-				<key>framebuffer-fbmem</key>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>framebuffer-con0-enable</key>
 				<data>
-				AACQAA==
+				AQAAAA==
+				</data>
+				<key>framebuffer-con0-pipe</key>
+				<data>
+				EgAAAA==
+				</data>
+				<key>framebuffer-con1-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con1-pipe</key>
+				<data>
+				EgAAAA==
+				</data>
+				<key>framebuffer-con2-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con2-pipe</key>
+				<data>
+				EgAAAA==
+				</data>
+				<key>framebuffer-con2-type</key>
+				<data>
+				AAgAAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-stolenmem</key>
-				<data>
-				AAAwAQ==
-				</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>
 				AAAAgA==
 				</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Intel UHD Graphics 630 (Mobile)</string>
 			</dict>
 		</dict>
 	</dict>
@@ -245,6 +290,22 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>IOElectrify.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IOElectrify</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -265,7 +326,7 @@
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
-			<false/>
+			<true/>
 			<key>Timeout</key>
 			<integer>10</integer>
 			<key>UsePicker</key>
@@ -290,7 +351,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>alcid=11 dart=0 darkwake=8 -v</string>
+				<string>dart=0 darkwake=0 -v</string>
 				<key>csr-active-config</key>
 				<data>
 				5wMAAA==
@@ -309,19 +370,18 @@
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>C02952404J9KGQGF1</string>
+			<string></string>
 			<key>ROM</key>
 			<data>
-			gtIVetnh
 			</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>iMac19,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02ZW0VXJWD1</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>CBCB79B1-DA5F-43EE-B637-6E20707AD9E1</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
