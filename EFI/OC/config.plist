@@ -176,7 +176,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
-				<string>Intel UHD Graphics 630 (Mobile)</string>
+				<string>Intel UHD Graphics 630</string>
 			</dict>
 		</dict>
 	</dict>
@@ -373,7 +373,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>alcid=11</string>
+				<string>alcid=11 -v</string>
 				<key>csr-active-config</key>
 				<data>
 				5wMAAA==
