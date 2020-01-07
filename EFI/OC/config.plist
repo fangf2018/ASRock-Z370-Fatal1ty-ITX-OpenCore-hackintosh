@@ -119,56 +119,32 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>
-				BwCbPg==
+				AwCYPg==
 				</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
 				<key>device-id</key>
 				<data>
-				mz4AAA==
+				mD4AAA==
 				</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
-				<key>framebuffer-con0-enable</key>
+				<key>framebuffer-fbmem</key>
 				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con0-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
-				<key>framebuffer-con1-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con1-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
-				<key>framebuffer-con2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con2-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
-				<key>framebuffer-con2-type</key>
-				<data>
-				AAgAAA==
+				AACQAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-unifiedmem</key>
+				<key>framebuffer-stolenmem</key>
 				<data>
-				AAAAgA==
+				AAAwAQ==
 				</data>
 				<key>hda-gfx</key>
-				<string>onboard-1</string>
+				<string>onboard-2</string>
 				<key>model</key>
-				<string>Intel UHD Graphics 630</string>
+				<string>Intel UHD Graphics 630 (Mobile)</string>
 			</dict>
 		</dict>
 	</dict>
@@ -309,7 +285,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>alcid=11 -v</string>
+				<string>alcid=11</string>
 				<key>csr-active-config</key>
 				<data>
 				5wMAAA==
@@ -328,18 +304,19 @@
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string></string>
+			<string>C029256004NKGQGCB</string>
 			<key>ROM</key>
 			<data>
+			C9ZGKtRE
 			</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>iMac19,2</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>C02YW011JWDW</string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>3FC344B6-875B-4349-8AD2-1187F52AD444</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -360,7 +337,6 @@
 			<string>FwRuntimeServices.efi</string>
 			<string>UsbKbDxe.efi</string>
 			<string>VBoxHfs.efi</string>
-			<string>VirtualSmc.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -383,6 +359,8 @@
 		</dict>
 		<key>Protocols</key>
 		<dict>
+			<key>AppleSmcIo</key>
+			<true/>
 			<key>ConsoleControl</key>
 			<true/>
 		</dict>
