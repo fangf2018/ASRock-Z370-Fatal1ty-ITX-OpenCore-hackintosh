@@ -2,6 +2,9 @@
 
 ## 至此z390 已经完美支持nvram 此项目于2020年2月3日停更。
 
+[z390转移链接](https://github.com/fangf2018/ASRock-Z390-Phantom-ITX-OpenCore-Hackintosh)
+
+
 ## 配置
 
 主板：华擎z370 Fatal1ty gaming-itx/ac
