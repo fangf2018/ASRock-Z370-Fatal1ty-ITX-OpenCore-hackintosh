@@ -9,16 +9,20 @@
 
 主板：华擎z370 Fatal1ty gaming-itx/ac
 
-cpu：i7 8700k
+cpu：i7 8700k es
 
-显卡：AMD rx480
+显卡：~~AMD rx480~~ UHD630
 
-网卡：BCM943602CS
+网卡：~~BCM943602CS~~ inter 3168
 
 
 # 更新日志
 
-### 2019-10-010
+### 2020-08-22
+* opencore 升级0.7.2
+* 添加TB3驱动含有雷电树 
+
+### 2019-10-10
 * 开启usb全端口
 `HS03-HS06、HS08-HS11、HS14、SS01-SS08`
 * 移除无用补丁（for z390）
