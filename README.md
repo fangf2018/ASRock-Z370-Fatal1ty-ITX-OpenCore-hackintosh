@@ -1,8 +1,5 @@
 # ASRock-Z370-Fatal1ty-ITX-OpenCore-Hackintosh
 
-## 至此z390 已经完美支持nvram 此项目于2020年2月3日停更。
-
-[z390转移链接](https://github.com/fangf2018/ASRock-Z390-Phantom-ITX-OpenCore-Hackintosh)
 
 
 ## 配置
